@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{116271f4-db08-4c47-93e8-244cbeef1c45}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f5f10389-f7cf-40a3-816e-eacfc6dca2b8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{43b3ce76-9e6d-470d-9100-b404055af680}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Fore.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fore_sm.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dynamitesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="playerRight.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="playerLeft.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="playerDown.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="playerUp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fire_left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fire_stone.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Earth_stone.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Air_stone.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Water_stone.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="base_wall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="add_wall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="panel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dynamite.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LgExplosion.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="smallclock.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="smallhandbomb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Win.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Lose.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dynamite2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dynamite3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="air_right.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="water_left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Fore.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Explosion.wav" />
+    <Media Include="win_sound.wav" />
+    <Media Include="lose.wav" />
+  </ItemGroup>
+</Project>

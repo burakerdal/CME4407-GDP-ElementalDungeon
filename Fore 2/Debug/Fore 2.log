@@ -1,0 +1,8 @@
+﻿  Sprite.cpp
+  GameEngine.cpp
+  Fore.cpp
+  Bitmap.cpp
+  Kod Üretiliyor...
+cl : komut satırı warning D9035: 'Gm' seçeneği kullanım dışı ve ileride yayınlanacak bir sürümden çıkarılacak
+Bitmap.obj : warning LNK4075: '/EDITANDCONTINUE' belirtimi nedeniyle '/SAFESEH' yoksayılıyor
+  Fore 2.vcxproj -> C:\Users\Burak\Desktop\sonunsonuuu2\Fore 2\Debug\Fore 2.exe
